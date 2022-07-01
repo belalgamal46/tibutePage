@@ -6,17 +6,18 @@
 }
 
 #main {
-  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: whitesmoke;
-  margin: 20px;
-   border-radius: 10px;
+  margin: 20px 8px;
+  border-radius: 10px;
 }
+
 #main p {
     font-family: 'Courier New', Courier, monospace;
+    margin: 1rem;
 
 }
 
@@ -26,15 +27,39 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.img-div {
-  width: 80%;
-  height: 70vh;
-  border-radius: 10px;
- 
+#img-div {
+  background-color: white;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  width: 98%;
+  padding: 20px;
 }
-.img-div img{
+
+#image {
   max-width: 100%;
-  height: 100%;
+  width: 60%;
+  height: auto;
+  display: block;
+  align-self: center;
+}
+
+#img-caption{
+  text-align: center;
+  margin: 15px 0px 5px 0px;
+  font-size: 16px;
+}
+
+#headline{
+  margin: 50px 0px;
+}
+
+ul{
+  max-width: 550px;
+  text-align: left;
+  margin: 0 auto 50px auto
+}
+
+li{
+  margin: 16px;
 }

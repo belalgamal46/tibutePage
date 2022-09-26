@@ -1,8 +1,7 @@
 * {
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 #main {
@@ -16,15 +15,14 @@
 }
 
 #main p {
-    font-family: 'Courier New', Courier, monospace;
-    margin: 1rem;
-
+  font-family: "Courier New", Courier, monospace;
+  margin: 1rem;
 }
 
 #title {
-    font-size: 40px;
-    margin: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  margin: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 #img-div {
@@ -44,22 +42,22 @@
   align-self: center;
 }
 
-#img-caption{
+#img-caption {
   text-align: center;
   margin: 15px 0px 5px 0px;
   font-size: 16px;
 }
 
-#headline{
+#headline {
   margin: 50px 0px;
 }
 
-ul{
+ul {
   max-width: 550px;
   text-align: left;
-  margin: 0 auto 50px auto
+  margin: 0 auto 50px auto;
 }
 
-li{
+li {
   margin: 16px;
 }
